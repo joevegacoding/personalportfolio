@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root {
-  --header-height: 3rem;
+  --header-height: 5rem;
   --font-semi: 600;
 }
 
@@ -168,11 +168,14 @@ img {
 }
 .nav__logo {
   color: var(--second-color);
+  font-size: 1.7rem;
 }
 .nav__toggle {
   color: var(--second-color);
-  font-size: 1.5rem;
+  font-size: 3.2rem;
   cursor: pointer;
+  margin-top: 0.8rem;
+  margin-right: 0.4rem;
 }
 
 /*Active menu*/
@@ -203,6 +206,7 @@ img {
   font-size: 5rem;
   margin-bottom: var(--mb-5);
   width: 100%;
+  padding-top: 5rem;
 }
 .home__title-color {
   color: var(--first-color);
@@ -462,5 +466,9 @@ img {
 @media screen and (max-width: 768px) {
   .home__title {
     font-size: 4rem;
+    padding-top: 3rem;
+  }
+  .nav__logo {
+    font-size: 1.5rem;
   }
 }
