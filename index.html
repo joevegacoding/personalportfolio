@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo" style="font-size: 1.7rem"
+            ><h3>Joseph Bouhanef</h3></a
+          >
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list" style="font-size: 1.2rem">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data" style="text-align: left" data-aos="fade-up">
+          <h1 class="home__title" style="text-align: left; padding-top: 5rem">
+            <span class="home__title-color"> WEB-DEVELOPER</span><br />
+            & <span class="home__title-color">DESIGNER</span> BASED IN MONTRÉAL,
+            QUÉBEC, CANADA.
+          </h1>
+        </div>
+
+        <div class="home__social">
+          <a href="" class="home__social-icon"
+            ><i
+              class="bx bxl-linkedin"
+              data-aos="fade-up"
+              data-aos-offset="20"
+              data-aos-delay="300"
+            ></i
+          ></a>
+          <a href="" class="home__social-icon"
+            ><i
+              class="bx bxl-behance"
+              data-aos="fade-up"
+              data-aos-offset="20"
+              data-aos-delay="400"
+            ></i
+          ></a>
+          <a
+            href=""
+            class="home__social-icon"
+            data-aos="fade-up"
+            data-aos-offset="20"
+            data-aos-delay="500"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2
+          class="section-title"
+          data-aos="fade-un"
+          data-aos-offset="20"
+          data-aos-delay="200"
+        >
+          About Me
+        </h2>
+
+        <div class="about__container bd-grid">
+          <div
+            class="about__img"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="400"
+          >
+            <img src="assets/img/josephprofile.png" alt="" />
+          </div>
+
+          <div data-aos="fade-up" data-aos-offset="20" data-aos-delay="300">
+            <h2 class="about__subtitle">Hi I'm Joseph!</h2>
+            <p class="about__text">
+              A hybrid between development and UI/UX design, I create awesome
+              websites where emotions and capabilities form a unique experience.
+            </p>
+            <br />
+            <p class="about__text">
+              My focus is performance, simplicity and originality. My workspace
+              is where every line of code and every design property count. I
+              take pride in the work I do that help businesses strive in the
+              digital world.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2
+          class="section-title"
+          data-aos="fade-in"
+          data-aos-offset="20"
+          data-aos-delay="350"
+        >
+          Skills
+        </h2>
+        <h2
+          class="skills__subtitle"
+          style="padding: 2rem auto; text-align: center; color: #1f3676"
+          class="section-title"
+          data-aos="fade-down
+          "
+          data-aos-offset="20"
+          data-aos-delay="350"
+        >
+          I wil help you with...
+        </h2>
+
+        <div class="skills__container bd-grid">
+          <div data-aos="fade-right" data-aos-offset="100" data-aos-delay="550">
+            <h3 style="font-size: 2rem">UI/UX</h3>
+            <p class="about__text">
+              As part of my development process, design is what defines the
+              project. Planning out every aspect of the experience before hand
+              makes production much more efficient. Whether it’s color palettes
+              or typography, I make sure to choose the style that defines your
+              needs.
+            </p>
+            <!-- <h3>Branding</h3>
+            <p class="skills__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              optio id vero amet, alias architecto consectetur error eum eaque
+              sit.
+            </p> -->
+          </div>
+
+          <div data-aos="fade-left" data-aos-offset="100" data-aos-delay="550">
+            <h3 style="font-size: 2rem">Development</h3>
+            <p class="about__text">
+              The development process consists of building out everything from
+              the blue prints. I use native languages such as HTML, CSS and
+              Javascript. I like to keep my code well-written, organized and
+              customizable for an optimum performance and maintainability.
+            </p>
+            <!-- <h3>Online Marketing</h3>
+            <p class="skills__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              optio id vero amet, alias architecto consectetur error eum eaque
+              sit.
+            </p> -->
+          </div>
+          <div data-aos="fade-left" data-aos-offset="100" data-aos-delay="550">
+            <h3 style="font-size: 2rem; color: #1f3676">
+              Can You Build Online Stores?
+            </h3>
+            <p class="about__text">
+              Absolutely! I love working with online stores and I’m currently
+              partnering with Shopify to offer solutions exclusive eCommerce
+              solutions.
+            </p>
+            <!-- <h3>Online Marketing</h3>
+            <p class="skills__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              optio id vero amet, alias architecto consectetur error eum eaque
+              sit.
+            </p> -->
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2
+          class="section-title"
+          data-aos="fade-in"
+          data-aos-offset="100"
+          data-aos-delay="550"
+        >
+          Work
+        </h2>
+
+        <div class="work__container bd-grid">
+          <div
+            class="work__img"
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-delay="550"
+          >
+            <a
+              href="./assets/img/saint-lamber.png"
+              data-lightbox="photo"
+              rel="lightbox[photo]"
+            >
+              <img src="./assets/img/saint-lamber.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="work__img"
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-delay="550"
+          >
+            <a
+              href="./assets/img/saint-lambert2.png"
+              data-lightbox="photo"
+              rel="lightbox[photo]"
+            >
+              <img src="./assets/img/saint-lambert2.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="work__img"
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-delay="550"
+          >
+            <a
+              href="./assets/img/MEUBLÉ.png"
+              data-lightbox="photo"
+              rel="lightbox[photo]"
+            >
+              <img src="./assets/img/MEUBLÉ.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="work__img"
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-delay="550"
+          >
+            <a
+              href="./assets/img/meuble2.png"
+              data-lightbox="photo"
+              rel="lightbox[photo]"
+            >
+              <img src="./assets/img/meuble2.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="work__img"
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-delay="550"
+          >
+            <a
+              href="./assets/img/maximilian1.png"
+              data-lightbox="photo"
+              rel="lightbox[photo]"
+            >
+              <img src="./assets/img/maximilian1.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="work__img"
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-delay="550"
+          >
+            <a
+              href="./assets/img/maximilian2.png"
+              data-lightbox="photo"
+              rel="lightbox[photo]"
+            >
+              <img src="./assets/img/maximilian2.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="work__img"
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-delay="550"
+          >
+            <a
+              href="./assets/img/caelestis2.png"
+              data-lightbox="photo"
+              rel="lightbox[photo]"
+            >
+              <img src="./assets/img/caelestis2.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="work__img"
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-delay="550"
+          >
+            <a
+              href="./assets/img/caelestis1.png"
+              data-lightbox="photo"
+              rel="lightbox[photo]"
+            >
+              <img src="./assets/img/caelestis1.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section
+        class="contact section"
+        id="contact"
+        data-aos="fade-in"
+        data-aos-offset="100"
+        data-aos-delay="650"
+      >
+        <h2 class="section-title">Let's work together!</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+              placeholder="Type your message..."
+            ></textarea>
+            <input type="button" value="Send" class="contact__button button" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Joseph Bouhanef</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="./assets/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 150,
+        duration: 1000,
+        once: "true",
+      });
+    </script>
+  </body>
+</html>
